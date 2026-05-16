@@ -1,0 +1,24 @@
+# SangerAgent Phase 1 Requirements
+# Install with: pip install -r requirements.txt
+
+# Core data validation
+pydantic>=2.0
+pydantic-settings>=2.0
+
+# Bioinformatics
+biopython>=1.81
+numpy>=1.24
+
+# Configuration
+pyyaml>=6.0
+
+# Phase 2+ (uncomment when needed)
+# fastapi>=0.100
+# uvicorn[standard]>=0.23
+# celery>=5.3
+# redis>=4.6
+# sqlalchemy>=2.0
+# alembic>=1.11
+# psycopg2-binary>=2.9
+# httpx>=0.24
+# mappy>=2.24
